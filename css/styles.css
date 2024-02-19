@@ -18,6 +18,9 @@ ul, ol{
 button{
     cursor: pointer;
 }
+img{
+    display: block;
+}
 
 .header{
     border-bottom: 1px solid #e7e9fc;
@@ -64,7 +67,7 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 23px 0;
+    padding: 24px 0;
     display: block;
 
     
@@ -91,11 +94,14 @@ button{
 .address-link:focus{
     color: #404bbf;
 }
+.hero{
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
  .hero-container{
     padding-top: 188px;
     padding-bottom: 292px;
-    /* padding-left: 487px;
-    padding-right: 487px; */
+    
     background: #2e2f42; 
     display: flex;
     flex-direction: column;
@@ -106,7 +112,7 @@ button{
 
 
 .main-title{
-    width: 496px;
+    max-width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -132,6 +138,8 @@ button{
     padding:16px 32px;
     min-width: 169px;
     height: 56px;
+    border: none;
+    border-radius: 4px;
     
 
   
@@ -147,8 +155,8 @@ button{
     letter-spacing: 0.02em;
     color: #434455;
     background-color: #ffffff;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px
  }
 
  .advant-list{
@@ -179,6 +187,17 @@ button{
     padding-top: 120px;
     padding-bottom: 72px;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;}
 .text-advantages{
     font-size: 16px;
     line-height: 1.5;
@@ -195,6 +214,12 @@ button{
     color: #2e2f42;
 
 }
+.team-sect{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
 .names-list{
     display: flex;
     column-gap: 24px;
