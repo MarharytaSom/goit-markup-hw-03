@@ -3,14 +3,38 @@ body{
     color: #434455;
     background-color: #fff;
 }
+h1,h2,h3.h4,h5,h6{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 a{
     text-decoration: none;
 }
 ul, ol{
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 button{
     cursor: pointer;
+}
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
+
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -21,12 +45,18 @@ button{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
+    
 }
 
 .logo-part {
     color: #2e2f42;
 }
+.nav-list{
+    display: flex;
+    gap: 40px;
 
+}
 .nav-link {
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -34,6 +64,9 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 23px 0;
+    display: block;
+
     
 }
 .nav-link:hover,
@@ -42,6 +75,11 @@ button{
 }
 .address{
     font-style: normal;
+    margin-left: auto;
+}
+.address-list{
+    display: flex;
+    gap: 40px;
 }
 .address-link {
     font-size: 16px;
@@ -53,17 +91,26 @@ button{
 .address-link:focus{
     color: #404bbf;
 }
-.main-header{
+.hero-container{
+    padding-top: 188px;
+    padding-bottom: 292px;
+    padding-left: 487px;
+    padding-right: 487px;
     background: #2e2f42;
+
 }
+
 .main-title{
+    width: 496px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    
 }
+
  .button{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -72,6 +119,15 @@ button{
     letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
+    margin-top: 48px;
+    margin-left: 164px;
+    margin-right: 164px;
+    padding:16px 32px;
+    min-width: 169px;
+    height: 56px;
+    
+
+  
 }
 .button:hover,
 .button:focus{
@@ -84,14 +140,25 @@ button{
     letter-spacing: 0.02em;
     color: #434455;
     background-color: #ffffff;
+    margin-top: 120px;
+    margin-bottom: 120px;
  }
 
+ .advant-list{
+    display: flex;
+    column-gap: 24px;
+    
+ }
+.advant-list-item{
+    width: calc((100% - 3 * 24px) / 4);
+}
 .team-sect{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     background: #f4f4fd;
+    
 }
 
 .second-title{
@@ -102,6 +169,8 @@ button{
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 .text-advantages{
     font-size: 16px;
@@ -120,37 +189,84 @@ button{
 
 }
 .names-list{
-    background-color: #ffffff;
+    display: flex;
+    column-gap: 24px;
+    padding-bottom: 116px;
+    padding: 0 15px 240px 15px;
+    
 }
+.names-list-item{
+    background-color: #ffffff;
+    width: calc((100% - 3 * 24px) / 4);
+    height: 380px;
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+}
+
 .names{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    
+    text-align: center;
     color: #2e2f42;
+    
 }
 .names-part{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
+    
+}
+
+.portfolio-title{
+    padding-bottom: 72px;
 }
 .portfolio-titles{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-        
-    color: #2e2f42;
+     color: #2e2f42;
+   
 
 }
 .portfolio{
     background-color: #FFFFFF;
+    margin-top: 124px;
+    margin-bottom: 120px;
+
+    
+}
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    
+
+}
+.portfolio-list-item{
+    width: calc((100% - 2 * 24px) / 3);
     
 }
 .portfolio-part{
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
+}
+.footer-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+    padding-right: 1020px;
+    
+    
+    
+    
+
 }
 .footer{
     font-size: 16px;
@@ -158,6 +274,8 @@ button{
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background: #2e2f42;
+    
+    
 }
 .footer-logo{
     font-family: "Raleway", sans-serif;
@@ -167,6 +285,8 @@ button{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        padding-bottom: 16px;
+        
 }
 .footer-logo-part{
     color :#f4f4fd;
@@ -176,5 +296,6 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 
 }
