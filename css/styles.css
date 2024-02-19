@@ -91,14 +91,19 @@ button{
 .address-link:focus{
     color: #404bbf;
 }
-.hero-container{
+ .hero-container{
     padding-top: 188px;
     padding-bottom: 292px;
-    padding-left: 487px;
-    padding-right: 487px;
-    background: #2e2f42;
+    /* padding-left: 487px;
+    padding-right: 487px; */
+    background: #2e2f42; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
 
-}
+    
+
 
 .main-title{
     width: 496px;
@@ -108,6 +113,8 @@ button{
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    
+    
     
 }
 
@@ -260,8 +267,7 @@ button{
 .footer-container{
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 156px;
-    padding-right: 1020px;
+   
     
     
     
