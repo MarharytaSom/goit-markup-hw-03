@@ -236,7 +236,7 @@ img{
     display: flex;
     gap: 24px;
     padding-bottom: 116px;
-    padding: 0 15px 240px 15px; 
+    
     
 }
 .names-list-item{
@@ -244,13 +244,13 @@ img{
     width: calc((100% - 3 * 24px) / 4);
     height: 380px;
     border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
   
 .names-container{
     padding-top: 32px;
     padding-bottom: 32px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
 }
 .names{
@@ -260,7 +260,8 @@ img{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 8px
+    margin-bottom: 8px;
+    
     
 }
 .names-part{
