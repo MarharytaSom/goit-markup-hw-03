@@ -220,13 +220,22 @@ color: #2e2f42;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
 
 .names-list{
     display: flex;
     gap: 24px;
-    padding-bottom: 116px;
-    padding: 0 15px 240px 15px;
+    padding: 0 0 120px 0;
     
 }
 .names-list-item{
@@ -239,7 +248,8 @@ color: #2e2f42;
     background: #fff;
 }
 .names-container{
-    padding: 32px 0
+    padding: 32px 0;
+    background: #fff;
 }
 .names{
     font-weight: 500;
